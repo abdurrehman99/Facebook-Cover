@@ -1,0 +1,32 @@
+$headerColor : #ffff;
+$backgroundColor : #ffff;
+*{
+    margin : 0;
+}
+.header {
+    display : flex;
+    background-color: #3b5998;
+    color: white ;
+}
+
+.fb-text{
+    width: 40rem;
+    h1 {
+        margin-left: 10rem;
+    }
+}
+
+.password-box{
+    a{
+        text-decoration: none;
+        color : lightskyblue;
+    }
+    a:hover{
+        color : lightslategray;
+
+    }
+    
+}
+.email-input,.password-input {
+    display: block;
+}
